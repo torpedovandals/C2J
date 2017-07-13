@@ -1,0 +1,34 @@
+#consultations-list-container {
+	a {
+		color: $textColorMedium;
+		display: block;
+		margin-bottom: 1rem;
+		&:hover {
+			color: $textColorDark;
+			text-decoration: underline;
+		}
+	}
+}
+
+#consultations-info-container {
+	include breakpoint(small only) {
+		margin-top: 4rem;
+	}
+}
+
+#all-posts-container {
+	h2 {
+		margin-top: 1rem;
+		float: right;
+	}
+	a {
+		color: $textColorMedium;
+		&:hover {
+			color: $textColorDark;
+			text-decoration: underline;
+		}
+	}
+	.text-horizontal-divider {
+		margin-bottom: 0px;
+	}
+}

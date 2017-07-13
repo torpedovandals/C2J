@@ -1,0 +1,62 @@
+#map-container {
+	width: 100%;
+	background-color: #000000;
+	height: 16rem;
+	background-image: url('../img/dummy/dummy-map.png');
+	background-size: auto 100%;
+	@include breakpoint(medium) {
+		height: 34rem;
+	}
+}
+
+#contact-form-container {
+	h1 {
+		//margin-bottom: 1rem;
+	}
+	label {
+		color: $textColorMedium;
+	}
+}
+
+#message-form-container textarea {
+	height: 8rem;
+}
+
+#contact-form-container {
+	margin-bottom: 1rem;
+}
+
+.captcha-container {
+	margin-top: 1.6rem;
+	
+	@include breakpoint(small only) {
+		margin-top: 0px;
+	}
+}
+
+.send-button-container {
+	margin-top: 1rem;
+}
+
+#people-container {
+	@include breakpoint(small only) {
+		margin-top: 4rem;
+	}
+}
+
+.person-tile-container {
+	margin-bottom: 1rem;
+}
+
+#contact-details-container {
+	h2:first-child {
+		margin-top: 1rem;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+.paypal-container {
+	margin-top: 1rem;
+}

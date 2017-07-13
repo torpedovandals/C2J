@@ -1,0 +1,19 @@
+#planning-info-container {
+	h1 {
+		@include breakpoint(small only) {
+			margin-top: 4rem;
+		}
+	}
+	ul, .side-menu-container h2 {
+		@include breakpoint(small only) {
+			
+
+		}
+	}
+	.side-menu-container h2 {
+		
+	}
+	li {
+		
+	}
+}

@@ -1,0 +1,84 @@
+.top-bar {
+	font-family: $primaryFont;
+	white-space: nowrap;
+	ul {
+		white-space: nowrap;
+	}
+	height: 3rem;
+}
+
+.top-bar-main {
+	background-color: $backgroundColorLightest;
+	//border-top: 1px solid $backgroundColorMediumLight;
+	border-bottom: 1px solid $backgroundColorMediumLight;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	ul {
+		background-color: $backgroundColorLightest;
+	}
+	li {
+		background-color: $backgroundColorLightest;
+	}
+}
+
+#top-bar-columns {
+	padding-left: 0px;
+	padding-top: 0.35rem;
+}
+
+#top-bar-menu-container {
+	//margin-top: 0.35rem;
+}
+
+.top-bar-sub {
+	background-color: $backgroundColorLightest;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	ul {
+		background-color: $backgroundColorLightest;
+	}
+}
+
+.top-bar-sub-elements-container {
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	ul {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+.top-bar-left li {
+	@include breakpoint(small only) {
+		display: inline-block;
+	}
+	span, .menu-drop-down {
+		color: $textColorMediumLight;
+	}
+	a:hover,  .active {
+		span {
+			color: $textColorDark;
+		}
+	}
+	a {
+		text-align: left;	
+	}
+	#menu-home {
+		//padding-left: 0px;
+	}
+}
+
+.top-bar-right {
+	padding: 0px;
+}
+
+#top-bar-c2j-logo {
+	height: 1.5rem;
+	position: relative;
+	top: 0.25rem;
+}

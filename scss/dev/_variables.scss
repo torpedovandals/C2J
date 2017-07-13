@@ -1,0 +1,76 @@
+// Greyscale
+$backgroundColorLightest: #efefef; // 94%
+$backgroundColorMediumLight: #d4d4d4; // 90%
+$backgroundColorMediumDark: #a3a3a3; // 64%
+$backgroundColorDarkest: #222222; // 13%
+
+$textColorLight: #efefef; // 94%
+$textColorMediumLight: #6c6c6c; // 50%
+$textColorMedium: #505050; // 31%
+$textColorDark: #323232; // 20%
+
+
+/* Previous dark colour scheme:
+$backgroundColorLightest: #343434;
+$backgroundColorMediumLight: #2d2d2d;
+$backgroundColorMediumDark: #1f1f1f;
+$backgroundColorDarkest: #121212;
+
+$textColorLight: #efefef;
+$textColorMedium: #c7c7c7; */
+
+// $signatureFont: 'Source Sans Pro', sans-serif;
+$primaryFont: 'Assistant', 'Helvetica', sans-serif;
+
+// Colour Scheme
+// Green 1 00B21A
+// Green 2 1AFF3B
+// Red 1 B2002D
+// Red 2 FF0140
+
+
+// Colours
+$companyColourMain: #32ab44;
+$companyColourSub: #cce7d0;
+
+$foundation-palette: (
+  primary: $companyColourMain,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+
+/*
+$bannerColorLatestWorkLight: #ed9d3b;
+$bannerColorLatestWorkDark: #854d0d;
+
+$bannerColorSmallProjectsLight: #3baced;
+$bannerColorSmallProjectsDark: #0d5b85;
+
+$bannerColorMediumProjectsLight: #59ed3b;
+$bannerColorMediumProjectsDark: #23850d;
+
+$bannerColorLargeProjectsLight: #913bed;
+$bannerColorLargeProjectsDark: #450d85;
+
+$bannerColorListedProjectsLight: #ed553b;
+$bannerColorListedProjectsDark: #851d0d;
+
+$orange: #db913b;
+$highlighterColour: #bb531c;
+$currentWorkColourLight: #e48e05;
+$currentWorkColourMedium: #db5b01;
+$currentWorkColourDark: #bf4701;
+$smallProjectsColourLight: #00cbda;
+$smallProjectsColourMedium: #00a6cf;
+$smallProjectsColourDark: #0081a7;
+$mediumProjectsColourLight: #86ce49;
+$mediumProjectsColourMedium: #53b223;
+$mediumProjectsColourDark: #418a1c;
+$largeProjectsColourLight: #f1cd00;
+$largeProjectsColourMedium: #ebb000;
+$largeProjectsColourDark: #dc8a00;
+
+*/
+//$topBarHeight: 5.5rem;

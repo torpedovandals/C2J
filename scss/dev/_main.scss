@@ -1,0 +1,173 @@
+html {
+	background-color: $backgroundColorLightest;
+	font-family: $primaryFont;
+	position: relative;
+    min-height: 100%;
+}
+
+body {
+	background-color: $backgroundColorLightest;
+	color: $textColorMedium;
+	// margin-bottom: 3.5rem; // Footer height
+}
+
+.page-image-container {
+	height: 36rem;
+}
+
+#page-image-home {
+	height: 100vh;
+	overflow: hidden;
+	img {
+		width: 100%;
+	}
+}
+
+#page-image-architecture {
+	background-image: url('../img/dummy/architecture-dummy.jpg');
+}
+
+#page-image-planning {
+	background-image: url('../img/dummy/planning-page-image.jpg');
+}
+
+#page-image-news {
+	background-image: url('../img/dummy/news-page-image.jpg');
+}
+
+.page-title-container {
+	height: 0px;
+	position: relative;
+	top: -4rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: visible;
+	h1 {
+		height: 0px;
+		color: $textColorLight;
+		font-family: $primaryFont;
+	}
+}
+
+#page-content {
+	@include breakpoint(small only) {
+		text-align: center;
+	}
+}
+
+/* .page-title-container {
+	position: relative;
+	top: 32rem;
+	height: 4rem;
+	overflow: hidden;
+	background-color: rgba( #000000, .5 );
+	h1 {
+		margin-left: 8rem;
+		font-family: $primaryFont;
+		font-weight: 200;
+		color: $textColorLight;
+	}
+} */
+
+/*#page-title-container {
+	
+	
+	position: relative;
+	top: -4rem;
+	overflow: visible;
+	
+	h1 {
+		display: block;
+		overflow: visible;
+		height: 0px;
+	}
+} */
+
+.text-box {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-family: $primaryFont;
+	@include breakpoint(small only) {
+		margin-top: 1rem;
+	}
+}
+
+.heavy-text-container {
+	p, ul {
+		text-align: left;
+	}
+
+}
+
+.text-main-heading {
+	font-size: 1.66rem;
+	margin: 0px;
+	font-weight: 200;
+	font-family: $primaryFont;
+}
+
+.text-sub-heading {
+	font-size: 1.1rem;
+	margin: 0px;
+	font-weight: 200;
+	font-family: $primaryFont;
+}
+
+.contact-detail {
+	color: $textColorMediumLight;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+}
+
+.text-horizontal-divider {
+	display: block;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	height: 1px;
+	width: 3rem;
+	background-color: $companyColourMain;
+	@include breakpoint(small only) {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.text-vertical-divider {
+	display: inline-block;
+	height: 0.66rem;
+	width: 1px;
+	padding: 0px;
+	background-color: $textColorMedium;
+}
+
+.read-more-tag {
+	font-family: $primaryFont;
+	color: $textColorDark;
+	font-size: 1rem;
+	&:hover {
+		color: $textColorMedium;
+	}
+}
+
+ul {
+	list-style-type: circle;
+	ul {
+		list-style-type: lower-alpha;
+	}
+}
+
+li {
+	margin-bottom: 0.75rem;
+}
+
+.side-menu-container {
+	font-family: $primaryFont;
+	h2 {
+		color: $textColorDark;
+		font-size: 1.25rem;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	p {
+		color: $textColorMediumLight;
+	}
+}
